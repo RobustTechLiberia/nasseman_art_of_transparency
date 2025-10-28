@@ -1,7 +1,7 @@
 import React from 'react';
 import img1 from '../assets/images/514502651_18365812969196814_8888835078465199744_n (1).jpeg';
-import img2 from '../assets/images/514502651_18365812969196814_8888835078465199744_n (1).jpeg';
-import img3 from '../assets/images/514502651_18365812969196814_8888835078465199744_n (1).jpeg';
+import img2 from '../assets/images/WhatsApp Image 2025-10-14 at 9.24.39 AM.jpeg';
+import img3 from '../assets/images/WhatsApp Image 2025-10-14 at 9.24.45 AM (1).jpeg';
 
 class News extends React.Component {
     render() {
@@ -23,7 +23,7 @@ class News extends React.Component {
                 <div className="flex flex-wrap bg-white h-auto justify-center items-center gap-52 md:gap-8 mt-10 md:mt-5 md:mb-12">
                    
                     <div className="bg-black w-80 h-80">
-                        <img src={img1} alt="" className="h-full cursor-pointer hover:bg-blend-overlay hover:opacity-50 object-cover" />
+                        <img src={img1} alt="" className="w-full h-full cursor-pointer hover:bg-blend-overlay hover:opacity-50 object-cover" />
                         <div className="bg-white h-40 shadow-xl border-b-2 border-gray-100">
                             <h1 className="text-left font-sans font-semibold text-xl mx-5 mt-3 capitalize cursor-pointer">
                                 nasseman as orange compliance brand ambassador
@@ -36,7 +36,7 @@ class News extends React.Component {
 
                     {/* Card 2 */}
                     <div className="bg-black w-80 h-80">
-                        <img src={img2} alt="" className="cursor-pointer h-full hover:bg-blend-overlay hover:opacity-50 object-cover" />
+                        <img src={img2} alt="" className="cursor-pointer h-full w-full hover:bg-blend-overlay hover:opacity-50 object-cover" />
                         <div className="bg-white h-40 shadow-md shadow-gray-100 border-b-2 border-b-gray-200">
                             <h1 className="text-left font-sans font-semibold text-xl mx-0 mt-3 capitalize cursor-pointer hidden">
                                 nasseman as orange compliance brand ambassador
@@ -49,7 +49,7 @@ class News extends React.Component {
 
                     {/* Card 3 */}
                     <div className="bg-black w-80 h-80">
-                        <img src={img3} alt="" className="cursor-pointer h-full hover:bg-blend-overlay hover:opacity-50 object-cover" />
+                        <img src={img3} alt="" className="cursor-pointer h-full w-full hover:bg-blend-overlay hover:opacity-50 object-cover" />
                         <div className="bg-white h-40 shadow-xl border-b-2 border-gray-100">
                             <h1 className="text-left font-sans font-semibold text-xl mx-5 mt-3 capitalize cursor-pointer hidden">
                                 nasseman as orange compliance brand ambassador
