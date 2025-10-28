@@ -1,13 +1,15 @@
 {
   "name": "nasseman_art_of_transparency",
-  "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "private": true,
+  "homepage": "https://Gabriel-3191997.github.io/nasseman_art_of_transparency",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
