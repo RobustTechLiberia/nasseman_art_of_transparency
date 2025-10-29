@@ -6,9 +6,9 @@ import DemoCarousel from './carousel';
 class HeroImage extends React.Component {
     render() {
         return ( 
-            <div className="flex flex-wrap gap-0 md:gap-0 justify-center bg-white mx-auto mt-32 md:mt-52">
+            <div className="flex flex-wrap gap-0 md:gap-0 justify-center bg-white mx-auto mt-24 sm:mt-52 md:mt-52 border-none">
 
-                <div className="w-xl bg-black h-96">
+                <div className="w-xl bg-black h-96 mt-5 md:mt-0">
                     <DemoCarousel />
                 </div>
                 <div className="w-xl bg-red-900 md:h-96 h-auto">
