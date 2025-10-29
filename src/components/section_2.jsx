@@ -10,10 +10,9 @@ class Sec extends React.Component {
 
   $('span#readmore').hide();
 
-  $("#btn").click(function() {
+  $("#btn_readmore").click(function() {
     $('span#readmore').toggle();
   });
-
 });
 
     }
@@ -33,7 +32,7 @@ class Sec extends React.Component {
                             Nasseman Art For Transparency is on a mission to empower young people to raise their voices against corruption and injustice through various artistic mediums such as education, music, art, drama,
 and films.
                          </span>
-                         <button className="border-none bg-white text-left  py-3 text-red-900 font-sans normal-case mx-0 hover:underline cursor-pointer px-1" id="btn"> Read more</button>
+                         <button className="border-none bg-white text-left  py-3 text-red-900 font-sans normal-case mx-0 hover:underline cursor-pointer px-1" id="btn_readmore"> Read more</button>
                        </p>
 </div>      
                      </div>
