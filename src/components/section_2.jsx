@@ -22,7 +22,7 @@ class Sec extends React.Component {
         
         return (
             <>
-                <div className="flex flex-wrap md:justify-evenly justify-center items-center bg-white h-96 gap-10">
+                <div className="flex flex-wrap md:justify-evenly justify-center items-center bg-white h-auto md:h-96 md:gap-8">
                     <div className="flex-col justify-center max-w-xl h-96 bg-white">
 
                     <div className="mt-8 md:mt-8 md:mx-5 mx-5">
