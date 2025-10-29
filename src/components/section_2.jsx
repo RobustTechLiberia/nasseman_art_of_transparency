@@ -2,7 +2,11 @@ import React from "react";
 import img from '../assets/images/WhatsApp Image 2025-10-13 at 8.14.08 PM.jpeg'
 
 class Sec extends React.Component {
+
+   
     render() {
+
+        
         return (
             <>
                 <div className="flex flex-wrap md:justify-evenly justify-center items-center bg-white h-96 gap-0">
