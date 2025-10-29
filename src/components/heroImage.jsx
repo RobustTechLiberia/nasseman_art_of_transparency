@@ -12,8 +12,8 @@ class HeroImage extends React.Component {
                     <DemoCarousel />
                 </div>
                 <div className="w-xl bg-red-900 md:h-96 h-auto">
-                    <h1 className="text-white mx-12 md:mx-20 text-5xl font-thin md:text-4xl font-sans capitalize md:pt-14 pt-10">
-                        empowering youth against <span className="font-semibold">corruption</span> & <span className="font-semibold">injustice</span>
+                    <h1 className="text-white mx-12 md:mx-20 text-5xl font-semibold md:text-4xl font-sans capitalize md:pt-5 pt-10">
+                        empowering youth against coruption &amp; injustice
                     </h1>
                     <p className="font-sans font-thin text-lg text-white md:mx-20 py-5 mx-12">
                         Nasseman Art For Transparency (NAFT) is a Non-Governmental Organization (NGO) founded by Mr. Rabbie Nassrallah, popularly known as NASSEMAN, a Global Music Anti-Corruption Ambassador for Transparency International and FairPlay Music.

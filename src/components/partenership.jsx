@@ -14,7 +14,7 @@ class Partenership extends React.Component {
   <div className="bg-black/80 bg-blend-overlay h-auto md:h-96 w-auto mt-60 flex flex-col justify-center items-center bg-cover bg-center bg-no-repeat object-cover inset-0 z-0">
     
     <h1 className="text-white text-4xl font-sans font-semibold mt-5 uppercase mx-5 md:w-xl text-center">
-      become a partner<br />against corruption
+      become a partner<br />against coruption
     </h1>
 
     <p className="text-center text-white py-5 mx-5 md:w-lg text-lg">

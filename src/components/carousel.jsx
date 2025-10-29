@@ -13,21 +13,21 @@ class DemoCarousel extends React.Component {
                     <img
                         src={img1}
                         alt="Hero Image"
-                        className="w-full h-full cursor-pointer hover:opacity-50 object-cover"
+                        className="w-full h-full cursor-pointer object-cover"
                     />
                 </div>
                 <div className="h-96">
                     <img
                         src={img2}
                         alt="Hero Image"
-                        className="w-full h-full cursor-pointer hover:opacity-50 object-cover"
+                        className="w-full h-full cursor-pointer object-cover"
                     />
                 </div>
                 <div className="h-96">
                     <img
                         src={img3}
                         alt="Hero Image"
-                        className="w-full h-full cursor-pointer hover:opacity-50 object-cover"
+                        className="w-full h-full cursor-pointer object-cover"
                     />
                 </div>
             </Carousel>
