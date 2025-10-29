@@ -14,7 +14,7 @@ class Sec extends React.Component {
                        </p>
 </div>      
                      </div>
-                    <div className="w-80 h-96 bg-green-500 md:mt-5 mt-3">
+                    <div className="w-80 h-96 bg-black md:mt-5 mt-3">
                         <img src={img} alt="Nasseman" className="w-full bg-cover h-full" />
                     </div>
                 </div>
