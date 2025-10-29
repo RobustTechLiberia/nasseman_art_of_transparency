@@ -2,7 +2,8 @@
   "name": "nasseman_art_of_transparency",
   "version": "0.0.0",
   "private": true,
-    "scripts": {
+  "homepage": "https://Gabriel-3191997.github.io/nasseman_art_of_transparency",
+  "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
