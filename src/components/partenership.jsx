@@ -24,7 +24,6 @@ class Partenership extends React.Component {
     <button className="bg-red-900 py-3 px-8 rounded-sm text-white capitalize text-2xl cursor-pointer hover:bg-red-800 transition mb-8">
       <FontAwesomeIcon icon={faFileDownload} className="text-2xl" /> register
     </button>
-
   </div>
 </div>
 
