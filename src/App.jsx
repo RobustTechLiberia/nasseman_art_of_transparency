@@ -3,12 +3,16 @@ import HomePage from './Pages/Home.jsx'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import { ThemeProvider } from "flowbite-react";
+import { lightTheme } from "../theme.js";
 
 class App extends React.Component {
   render() {
     return (
-      
-      <HomePage />
+      <ThemeProvider theme={lightTheme}>
+         <HomePage />
+      </ThemeProvider>
+     
     )
   }
 }

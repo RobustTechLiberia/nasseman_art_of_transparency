@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import DemoCarousel from './carousel';
-
+import { Button, ThemeProvider } from "flowbite-react";
 
 class HeroImage extends React.Component {
     render() {
@@ -19,9 +19,9 @@ class HeroImage extends React.Component {
                         Nasseman Art For Transparency (NAFT) is a Non-Governmental Organization (NGO) founded by Mr. Rabbie Nassrallah, popularly known as NASSEMAN, a Global Music Anti-Corruption Ambassador for Transparency International and FairPlay Music.
                     </p>
                     <div className="flex justify-start mb-10 mx-12 md:mx-20">
-                        <button className="border border-white px-8 py-2 rounded xl text-white font-sans capitalize hover:underline cursor-pointer">
+                        <Button className="border border-white px-8 py-2 rounded xl hover:bg-red-900 text-white font-sans capitalize hover:underline cursor-pointer bg-red-900">
                             join us
-                        </button>
+                        </Button>
                     </div>
                 </div>
             </div>

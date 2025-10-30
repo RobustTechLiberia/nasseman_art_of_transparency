@@ -1,5 +1,6 @@
 import React from 'react'
 import img from '../assets/images/WhatsApp Image 2025-10-14 at 9.24.48 AM.jpeg'
+import { ThemeProvider } from "flowbite-react";
 
 class Support extends React.Component{
 
@@ -18,7 +19,7 @@ class Support extends React.Component{
                     <p className="text-center md:text-center font-sans font-normal normal-case text-lg">
                      We educate youth and raise awareness 
                     about the dangers of corruption, aspiring 
-                    towards a corruption- free society. <br />Download our <span className="text-red-900 hover:underline">
+                    towards a corruption- free society. <br className='hidden md:block' />Download our <span className="text-red-900 hover:underline">
                         <a href="#" download>
                             Brochure
                         </a>

@@ -2,6 +2,7 @@ import React from 'react';
 import img1 from '../assets/images/514502651_18365812969196814_8888835078465199744_n (1).jpeg';
 import img2 from '../assets/images/WhatsApp Image 2025-10-14 at 9.24.39 AM.jpeg';
 import img3 from '../assets/images/WhatsApp Image 2025-10-14 at 9.24.45 AM (1).jpeg';
+import { Button, ThemeProvider } from "flowbite-react";
 
 class News extends React.Component {
     render() {
@@ -28,9 +29,9 @@ class News extends React.Component {
                             <h1 className="text-left font-sans font-semibold text-xl mx-5 mt-3 capitalize cursor-pointer">
                                 nasseman as orange compliance brand ambassador
                             </h1>
-                            <button className="px-8 py-3 bg-red-900 hover:bg-red-800 normal-case text-md border-none hover:underline rounded-md text-white mt-3 mx-5 cursor-pointer text-lg  md:text-lg">
+                            <Button className="px-8 py-4 bg-red-900 hover:bg-red-800 normal-case text-md border-none hover:underline rounded-md text-white mt-3 mx-5 cursor-pointer text-lg  md:text-lg">
                                 Read more
-                            </button>
+                            </Button>
                         </div>
                     </div>
 
@@ -41,9 +42,9 @@ class News extends React.Component {
                             <h1 className="text-left font-sans font-semibold text-xl mx-0 mt-3 capitalize cursor-pointer hidden">
                                 nasseman as orange compliance brand ambassador
                             </h1>
-                            <button className="px-8 py-3 bg-red-900 hover:bg-red-800 normal-case text-md border-none hover:underline rounded-md text-white mt-5 hidden text-lg  md:text-lg">
+                            <Button className="px-8 py-3 bg-red-900 hover:bg-red-800 normal-case text-md border-none hover:underline rounded-md text-white mt-5 hidden text-lg  md:text-lg">
                                 Read more
-                            </button>
+                            </Button>
                         </div>
                     </div>
 
@@ -54,9 +55,9 @@ class News extends React.Component {
                             <h1 className="text-left font-sans font-semibold text-xl mx-5 mt-3 capitalize cursor-pointer hidden">
                                 nasseman as orange compliance brand ambassador
                             </h1>
-                            <button className="px-8 py-3 bg-red-900 hover:bg-red-800 normal-case text-md border-none hover:underline rounded-md text-white mt-5 mx-5 hidden text-lg  md:text-lg">
+                            <Button className="px-8 py-3 bg-red-900 hover:bg-red-800 normal-case text-md border-none hover:underline rounded-md text-white mt-5 mx-5 hidden text-lg  md:text-lg">
                                 Read more
-                            </button>
+                            </Button>
                         </div>
                     </div>
                 </div>

@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faFacebookF, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import logo from "../assets/images/logo.jpeg";
+import { Button, ThemeProvider } from "flowbite-react";
 
 class Navbar extends React.Component {
     render() {
@@ -16,9 +17,9 @@ class Navbar extends React.Component {
     </a>
     {/* Donate  Button */}
     <div className="flex items-center space-x-6 md:mx-8 md:order-2 gap-x-5">
-      <button className="bg-red-900 py-2 px-5 rounded-lg text-white hover:bg-white hover:text-red-900 border border-red-900 transition duration-300">
+      <Button className="bg-red-900 py-2 px-5 rounded-lg text-white hover:bg-white hover:text-red-900 border cursor-pointer border-red-900 transition duration-300">
         Donate
-      </button>
+      </Button>
       {/* Menu Button */}
       <button
         data-collapse-toggle="navbar-sticky"

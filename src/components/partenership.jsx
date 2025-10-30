@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileDownload} from '@fortawesome/free-solid-svg-icons';
+import { Button, ThemeProvider } from "flowbite-react";
 
 import '../App.css';
 
@@ -21,9 +22,9 @@ class Partenership extends React.Component {
       Join us, support our Movement! and let’s help educate the next generation about the ripple effects of corruption and injustice in our society.
     </p>
 
-    <button className="bg-red-900 py-3 px-8 rounded-sm text-white capitalize text-2xl cursor-pointer hover:bg-red-800 transition mb-8">
+    <Button className="bg-red-900 py-8 px-8 rounded-sm text-white capitalize text-2xl cursor-pointer hover:bg-red-800 transition mb-8">
       <FontAwesomeIcon icon={faFileDownload} className="text-2xl" /> register
-    </button>
+    </Button>
   </div>
 </div>
 
