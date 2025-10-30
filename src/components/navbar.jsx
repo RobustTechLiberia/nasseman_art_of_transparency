@@ -38,20 +38,21 @@ class Navbar extends React.Component {
     <div className="hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
       <ul className="flex flex-col md:flex-row md:space-x-8 p-4 md:p-0 font-medium">
         <li>
-            <a href="#" className="block py-2 px-3 text-red-900">
-                Home</a>
+            <a href="#" className="block py-2 px-3 text-red-900 capitalize">
+                home</a>
                 </li>
         <li>
-            <a href="#" className="block py-2 px-3 text-red-900">
+            <a href="#" className="block py-2 px-3 text-red-900 capitalize">
                 About</a>
                 </li>
         <li>
-            <a href="#" className="block py-2 px-3 text-red-900">
-                Services
+            <a href="#" className="block py-2 px-3 text-red-900 capitalize">
+                careers
                 </a>
         </li>
-        <li><a href="#" className="block py-2 px-3 text-red-900">
-            Contact
+        <li>
+          <a href="#" className="block capitalize py-2 px-3 text-red-900">
+            contact
             </a>
             </li>
       </ul>

@@ -37,7 +37,7 @@ class News extends React.Component {
                     {/* Card 2 */}
                     <div className="bg-black w-80 h-80">
                         <img src={img2} alt="" className="cursor-pointer h-full w-full hover:bg-blend-overlay hover:opacity-50 object-cover" />
-                        <div className="bg-white h-40 shadow-md shadow-gray-100 border-b-2 border-b-gray-200">
+                        <div className="bg-white h-44 shadow-xl shadow-gray-100 border-b-2 border-b-gray-200">
                             <h1 className="text-left font-sans font-semibold text-xl mx-0 mt-3 capitalize cursor-pointer hidden">
                                 nasseman as orange compliance brand ambassador
                             </h1>
@@ -50,7 +50,7 @@ class News extends React.Component {
                     {/* Card 3 */}
                     <div className="bg-black w-80 h-80">
                         <img src={img3} alt="" className="cursor-pointer h-full w-full hover:bg-blend-overlay hover:opacity-50 object-cover" />
-                        <div className="bg-white h-40 shadow-xl border-b-2 border-gray-100">
+                        <div className="bg-white h-44 shadow-xl border-b-2 border-gray-100">
                             <h1 className="text-left font-sans font-semibold text-xl mx-5 mt-3 capitalize cursor-pointer hidden">
                                 nasseman as orange compliance brand ambassador
                             </h1>

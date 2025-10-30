@@ -8,7 +8,7 @@ class HeroImage extends React.Component {
         return ( 
             <div className="flex flex-wrap gap-0 md:gap-0 justify-center bg-white mx-auto mt-24 sm:mt-52 md:mt-52 border-none">
 
-                <div className="w-xl bg-black h-96 mt-5 md:mt-0">
+                <div className="w-xl bg-black h-96 mt-5 md:mt-0 hover:bg-blend-overlay hover:cursor-pointer">
                     <DemoCarousel />
                 </div>
                 <div className="w-xl bg-red-900 md:h-96 h-auto">
