@@ -1,7 +1,7 @@
 import React from 'react'
 import HomePage from './Pages/Home.jsx'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/700.css'
 import './App.css'
 import { ThemeProvider } from "flowbite-react";
 import { lightTheme } from "../theme.js";
