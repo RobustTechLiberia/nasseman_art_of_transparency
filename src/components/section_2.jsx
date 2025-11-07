@@ -25,7 +25,7 @@ class Sec extends React.Component {
                 <span id="readmore">
                   Nasseman Art For Transparency is on a mission to empower young people to raise their voices against corruption and injustice through various artistic mediums such as education, music, art, drama, and films.
                 </span>
-                <Button
+                <Button color="failure"
                   className="bg-white text-red-900 hover:bg-white hover:text-red-900 hover:underline text-lg focus:ring-0 border-none px-1 py-3 text-left font-sans normal-case mx-0 cursor-pointer"
                   id="btn_readmore"
                 >
