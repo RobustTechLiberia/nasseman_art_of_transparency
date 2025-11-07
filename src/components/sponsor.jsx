@@ -16,11 +16,11 @@ class Sponsorship extends React.Component{
                 </h1>
                 <div className="flex flex-wrap justify-center items-center md:gap-20 gap-24 mt-20">
                     <div className="bg-white w-32 h-28">
-                        <img src={img1} alt="Orange Liberia" className='hover:cursor-pointer md:w-auto w-28'/>
+                        <img src={img1} alt="Orange Liberia" className='hover:cursor-pointer md:w-32 w-28'/>
                         <p className="text-center capitalize font-sans font-normal text-lg">orange liberia</p>
                     </div>
-                    <div className="bg-white md:w-32 w-auto h-28">
-                        <img src={img2} alt="Transparency International" className='md:w-auto w-20 md:h-auto h-20 hover:cursor-pointer md:mx-0 mx-14'/>
+                    <div className="bg-white md:w-auto w-auto h-28">
+                        <img src={img2} alt="Transparency International" className='md:w-28 w-20 md:h-auto h-20 hover:cursor-pointer md:mx-0 mx-14'/>
                     <p className="text-center capitalize font-sans font-normal text-lg md:w-auto">
                         transparency international
                     </p>
