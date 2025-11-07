@@ -29,7 +29,7 @@ class News extends React.Component {
                             <h1 className="text-left font-sans font-semibold text-xl mx-5 mt-3 capitalize cursor-pointer">
                                 nasseman as orange compliance brand ambassador
                             </h1>
-                            <Button className="px-8 py-4 bg-red-900 hover:bg-red-800 normal-case text-md border-none hover:underline rounded-md text-white mt-3 mx-5 cursor-pointer text-lg  md:text-lg">
+                            <Button color="failure" className="px-8 py-4 bg-red-900 hover:bg-red-800 normal-case text-md border-none hover:underline rounded-md text-white mt-3 mx-5 cursor-pointer text-lg  md:text-lg">
                                 Read more
                             </Button>
                         </div>
@@ -42,7 +42,7 @@ class News extends React.Component {
                             <h1 className="text-left font-sans font-semibold text-xl mx-0 mt-3 capitalize cursor-pointer hidden">
                                 nasseman as orange compliance brand ambassador
                             </h1>
-                            <Button className="px-8 py-3 bg-red-900 hover:bg-red-800 normal-case text-md border-none hover:underline rounded-md text-white mt-5 hidden text-lg  md:text-lg">
+                            <Button color="failure" className="px-8 py-3 bg-red-900 hover:bg-red-800 normal-case text-md border-none hover:underline rounded-md text-white mt-5 hidden text-lg  md:text-lg">
                                 Read more
                             </Button>
                         </div>
@@ -55,7 +55,7 @@ class News extends React.Component {
                             <h1 className="text-left font-sans font-semibold text-xl mx-5 mt-3 capitalize cursor-pointer hidden">
                                 nasseman as orange compliance brand ambassador
                             </h1>
-                            <Button className="px-8 py-3 bg-red-900 hover:bg-red-800 normal-case text-md border-none hover:underline rounded-md text-white mt-5 mx-5 hidden text-lg  md:text-lg">
+                            <Button color="failure" className="px-8 py-3 bg-red-900 hover:bg-red-800 normal-case text-md border-none hover:underline rounded-md text-white mt-5 mx-5 hidden text-lg  md:text-lg">
                                 Read more
                             </Button>
                         </div>

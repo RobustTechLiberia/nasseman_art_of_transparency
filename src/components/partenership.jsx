@@ -22,7 +22,7 @@ class Partenership extends React.Component {
       Join us, support our Movement! and let’s help educate the next generation about the ripple effects of corruption and injustice in our society.
     </p>
 
-    <Button className="bg-red-900 py-8 px-8 rounded-sm text-white capitalize text-2xl cursor-pointer hover:bg-red-800 transition mb-8">
+    <Button color="failure" className="bg-red-900 py-8 px-8 rounded-sm text-white capitalize text-2xl cursor-pointer hover:bg-red-800 transition mb-8">
       <FontAwesomeIcon icon={faFileDownload} className="text-2xl" /> register
     </Button>
   </div>
