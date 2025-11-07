@@ -6,6 +6,8 @@ import Navbar from '../components/navbar.jsx';
 import Partenership from '../components/partenership.jsx';
 import Sec from  '../components/section_2.jsx'
 import Support from '../components/support.jsx';
+import Sponsorship from '../components/sponsor.jsx';
+
 
 class Home extends React.Component {
     render(){
@@ -19,6 +21,8 @@ class Home extends React.Component {
             <Partenership />
             <Sec />
             <Support />
+            <Sponsorship/>
+            
             </>
         );
     }
