@@ -22,6 +22,7 @@ const Sponsorship = () => {
           showArrows={false}
           showThumbs={false}
           showStatus={false}
+          showIndicators={false}
           infiniteLoop
           autoPlay
           interval={3000}
