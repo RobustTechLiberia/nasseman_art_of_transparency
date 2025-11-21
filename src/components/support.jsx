@@ -9,7 +9,7 @@ class Support extends React.Component{
         return(
 
             <>
-            <div className="bg-white flex justify-center items-center md:justify-evenly flex-wrap gap-5 md:gap-0 md:h-96 mt-10 md:mt-10">
+            <div className="bg-white flex justify-center items-center md:justify-evenly flex-wrap gap-5 md:gap-0 md:h-96 h-72 mt-10 md:mt-10">
                 <div className="w-80 bg-black h-96 rounded-md">
 
                     <img src= {img} alt="" className='h-full w-full rounded-md object-cover hover:bg-blend-overlay hover:cursor-pointer hover:opacity-50' />
